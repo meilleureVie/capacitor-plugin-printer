@@ -35,5 +35,3 @@ yarn-error.log*
 /capacitor-plugin-printer/.gitignore
 /capacitor-plugin-printer/dist
 /capacitor-plugin-printer/node_modules
-/capacitor-plugin-printer/
-
