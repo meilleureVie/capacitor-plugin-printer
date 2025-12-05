@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+/capacitor-plugin-printer/node_modules
 /.pnp
 .pnp.js
 
@@ -10,6 +11,7 @@
 
 # production
 /dist
+/capacitor-plugin-printer/dist
 
 # misc
 .DS_Store
@@ -29,9 +31,3 @@ yarn-error.log*
 
 # Optional eslint cache
 .eslintcache
-
-# nested project
-/capacitor-plugin-printer/.git
-/capacitor-plugin-printer/.gitignore
-/capacitor-plugin-printer/dist
-/capacitor-plugin-printer/node_modules
