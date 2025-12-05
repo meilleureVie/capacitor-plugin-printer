@@ -1,8 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-node_modules
-/capacitor-plugin-printer/node_modules
+/node_modules
 /.pnp
 .pnp.js
 
@@ -11,7 +10,6 @@ node_modules
 
 # production
 /dist
-/capacitor-plugin-printer/dist
 
 # misc
 .DS_Store
@@ -33,8 +31,9 @@ yarn-error.log*
 .eslintcache
 
 # nested project
-./capacitor-plugin-printer/.git
-./capacitor-plugin-printer/.gitignore
-.
+/capacitor-plugin-printer/.git
+/capacitor-plugin-printer/.gitignore
+/capacitor-plugin-printer/dist
+/capacitor-plugin-printer/node_modules
+/capacitor-plugin-printer/
 
-./capacitor-plugin-printer/
