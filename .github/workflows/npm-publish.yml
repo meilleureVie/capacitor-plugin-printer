@@ -8,6 +8,8 @@ on:
 jobs:
   publish:
     runs-on: ubuntu-latest
+    defaults:
+      working-directory: ./capacitor-plugin-printer
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -18,9 +20,6 @@ jobs:
           node-version: 22
           registry-url: https://registry.npmjs.org/
           scope: "@chezgugu"
-
-      - name: set capacitor plugin dir as workspace
-        run: cd ./capacitor-plugin-printer
 
       - name: Install dependencies
         run: npm -f install
