@@ -1,6 +1,6 @@
 {
   "name": "@chezgugu/capacitor-plugin-printer",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Capacitor plugin for printing HTML format value iOS/Android apps.",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -19,10 +19,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://ionic.io.git"
+    "url": "https://github.com/meilleureVie/capacitor-plugin-printer.git"
   },
   "bugs": {
-    "url": "https://ionic.io/issues"
+    "url": "https://github.com/meilleureVie/capacitor-plugin-printer/issues"
   },
   "keywords": [
     "capacitor",
