@@ -29,3 +29,10 @@ yarn-error.log*
 
 # Optional eslint cache
 .eslintcache
+
+# nested project
+./capacitor-plugin-printer/.git
+./capacitor-plugin-printer/.gitignore
+./capacitor-plugin-printer/dist
+./capacitor-plugin-printer/node_modules
+./capacitor-plugin-printer/
