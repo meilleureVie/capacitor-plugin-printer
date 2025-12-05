@@ -9,7 +9,8 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     defaults:
-      working-directory: ./capacitor-plugin-printer
+      run:
+        working-directory: ./capacitor-plugin-printer
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
